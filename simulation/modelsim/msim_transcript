@@ -1,0 +1,133 @@
+# Reading pref.tcl
+# do uart_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/uart_alu_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:40 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/uart_alu_top.v 
+# -- Compiling module uart_alu_top
+# 
+# Top level modules:
+# 	uart_alu_top
+# End time: 15:57:40 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/data_ctl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/data_ctl.v 
+# -- Compiling module data_ctl
+# 
+# Top level modules:
+# 	data_ctl
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/alu_en.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/alu_en.v 
+# -- Compiling module alu_en
+# 
+# Top level modules:
+# 	alu_en
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/seg2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/seg2.v 
+# -- Compiling module seg2
+# 
+# Top level modules:
+# 	seg2
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/clk_1k.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/clk_1k.v 
+# -- Compiling module clk_1k
+# 
+# Top level modules:
+# 	clk_1k
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/uart_tx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/uart_tx.v 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/uart_rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/led.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/led.v 
+# -- Compiling module led
+# 
+# Top level modules:
+# 	led
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/FPGADesign/SummerEDP/UART {C:/FPGADesign/SummerEDP/UART/uart_alu_top_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:57:41 on Jul 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/FPGADesign/SummerEDP/UART" C:/FPGADesign/SummerEDP/UART/uart_alu_top_tb.v 
+# -- Compiling module uart_alu_top_tb
+# 
+# Top level modules:
+# 	uart_alu_top_tb
+# End time: 15:57:41 on Jul 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  uart_alu_top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" uart_alu_top_tb 
+# Start time: 15:57:42 on Jul 21,2022
+# Loading work.uart_alu_top_tb
+# Loading work.uart_alu_top
+# Loading work.uart_rx
+# Loading work.uart_tx
+# Loading work.led
+# Loading work.clk_1k
+# Loading work.seg2
+# Loading work.data_ctl
+# Loading work.alu_en
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/uart_alu_top_tb/UAT/UR/*
+add wave -position insertpoint sim:/uart_alu_top_tb/UAT/UT/*
+add wave -position insertpoint sim:/uart_alu_top_tb/UAT/DC/*
+restart
+run -all
+add wave -position insertpoint sim:/uart_alu_top_tb/UAT/*
+restart
+run -all
+# End time: 16:42:25 on Jul 21,2022, Elapsed time: 0:44:43
+# Errors: 0, Warnings: 0

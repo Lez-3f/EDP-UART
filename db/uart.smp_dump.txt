@@ -1,0 +1,22 @@
+
+State Machine - |uart_alu_top|data_ctl:DC|state
+Name state.0011 state.0010 state.0001 state.0000 state.0100 
+state.0000 0 0 0 0 0 
+state.0001 0 0 1 1 0 
+state.0010 0 1 0 1 0 
+state.0011 1 0 0 1 0 
+state.0100 0 0 0 1 1 
+
+State Machine - |uart_alu_top|uart_tx:UT|state
+Name state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 
+state.0001 0 0 1 1 
+state.0010 0 1 0 1 
+state.0011 1 0 0 1 
+
+State Machine - |uart_alu_top|uart_rx:UR|state
+Name state.0011 state.0010 state.0001 state.0000 
+state.0000 0 0 0 0 
+state.0001 0 0 1 1 
+state.0010 0 1 0 1 
+state.0011 1 0 0 1 
